@@ -22,3 +22,10 @@ Saktrix UI is a **modern, open-source React component library** built with **Typ
 
 ```bash
 npm install @saktrix/ui
+
+## 📖 Usage
+import { Button } from "@saktrix/ui";
+
+export default function App() {
+  return <Button variant="primary">Hello Saktrix</Button>;
+}
